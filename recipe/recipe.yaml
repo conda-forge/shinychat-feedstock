@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.0"
+  version: "0.6.1"
 
 package:
   name: shinychat
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/shinychat/shinychat-${{ version }}.tar.gz
-  sha256: fe7f19dc035f62b5cabb0467dff45129f11f786b2a5193d309ebcfebf3c3f705
+  sha256: f57f39a1dd60332205c9ced44807b70d7874c0f369475b1395f3f9322002456c
 
 build:
   number: 0
@@ -33,7 +33,7 @@ tests:
       imports:
         - shinychat
       pip_check: true
-      python_version: 
+      python_version:
         - ${{ python_min }}.*
         - "*"
 
