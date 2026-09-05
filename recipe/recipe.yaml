@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "0.6.1"
+  version: "0.7.0"
 
 package:
   name: shinychat
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/s/shinychat/shinychat-${{ version }}.tar.gz
-  sha256: f57f39a1dd60332205c9ced44807b70d7874c0f369475b1395f3f9322002456c
+  sha256: c3e7d52d421fcc6adf4fee9b6c55d0dab829c1bad9050067d2892e0bd99b92a1
 
 build:
   number: 0
